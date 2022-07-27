@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <b><h1 class="first" style="font-weight: 900;"><center> CALCULATOR </center></h1></b>
+    <center><img src="CalcPhoto.png"></center>
+   <h2 class="second">Welcome to this web page created by Akshat Dutta. You can do simple calculations using this web-page.
+   <br>Since this a simple calculator, you can only perform one operation at a time. Like you can only do addition, 
+   substraction, etc of two numbers at a time. </h2><br>
+
+   <h2><center> <table class="tab" border="6">
+   
+    <tr>
+        <td colspan="4" class="screen" id="screen"></td>
+    </tr>
+    <tr>
+       <td onclick="one()">1</td>       <td onclick="two()">2</td>      <td onclick="three()">3</td>      <td onclick="sum()" class="operator">+</td>
+    </tr>
+    <tr>
+        <td onclick="four()">4</td>      <td onclick="five()">5</td>      <td onclick="six()">6</td>      <td onclick="minus()" class="operator">-</td>
+    </tr>
+    <tr>
+        <td onclick="seven()">7</td>      <td onclick="eight()">8</td>      <td onclick="nine()">9</td>      <td onclick="mult()" class="operator">*</td>
+    </tr>
+    <tr>
+        <td onclick="zero()">0</td>      <td onclick="decimal()">.</td>      <td onclick="exponent()" class="operator">^</td>      <td onclick="divide()" class="operator">/</td>
+    </tr>
+    <tr>
+        <td onclick="zero();zero();">00</td>      <td onclick="clean()">C</td>      <td onclick="equal()" colspan="2">=</td>
+    </tr>
+</h2></center></table>
+<script src="javscr.js"></script>   
+</body>
+</html>
