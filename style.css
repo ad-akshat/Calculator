@@ -2,7 +2,7 @@ body {background-color: rgb(80, 240, 255);}
 
 .first{
     color: brown;
-    font-family: cursive;
+    font-family: 'Edu SA Beginner', cursive;
     font-weight: 900 ;
     font-size: 60px;
 }
